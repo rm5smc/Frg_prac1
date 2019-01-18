@@ -1,0 +1,250 @@
+/*ADD Font */
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #eee;
+}
+
+.container{
+  max-width: 1140px;
+  height: 660px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.bg-image{
+  width: 100%;
+  background: url('../img/hero-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico';
+  font-size: 30px;
+  color: pink !important;
+}
+
+nav.navbar {
+  float: right;
+  padding-top: 10px;
+}
+
+.navbar ul li {
+  float: left;
+}
+.logo {
+  float: left;
+  padding-top: 25px;
+}
+
+a.nav-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 70px;
+  z-index: 1;
+}
+
+.hero-content h1{
+  font-size: 80px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  overflow: hidden;
+  color: #fff;
+}
+.hero-content h5{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.hero-content p{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.text-center {
+  text-align: center!important;
+  padding-top: 200px;
+}
+
+
+h1{
+  font-weight: bold;
+  line-height: 1.5;
+  color: #fff;
+  letter-spacing: -0.05em;
+}
+
+span.rotate {
+  font-size: 70px;
+}
+
+h5{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p{
+  line-height: 1.5;
+}
+
+.fab {
+  float: left;
+  font-size: inherit;
+}
+
+.social-link{
+  margin-left: 494px;
+  letter-spacing: 20px;
+}
+
+.rotate{
+  transition: all 1.5s;
+  transform: rotateX(360deg);
+  animation: one 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes one {
+  0% {
+      transform: rotateX(0);
+  }
+  100% {
+      transform: rotateX(360deg);
+  }
+}
+
+a.arrow-animated {
+  position: absolute;
+  width: 40px;
+  height: auto;
+  left: calc(50% - 25px);
+  bottom: 50px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  color: #ddd;
+  writing-mode: vertical-rl;
+  text-align: center;
+  line-height: 40px;
+  -webkit-animation: bounce 2s infinite;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*Section*/
+.container-fluid {
+  max-width: 1140px;
+  height: 671px;
+  position: relative;
+  margin: 0 auto;
+}
+
+section#about {
+  background: black;
+}
+
+h2.heading-about {
+  font-size: 32px;
+  color: #fff;
+  margin: 0 0 10px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-top: 200px;
+  text-transform: uppercase;
+  letter-spacing: -0.06em;
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 20px;
+
+  animation: typer infinite 3s steps(8);
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+/* h2.heading-about::after{
+  position: absolute;
+  left: 0;
+  content: '|';
+} */
+
+
+@keyframes typer{
+  10%{
+    width: 0px;
+    color: #ddd;
+  }
+  50%{
+    width: 155px;
+    color: #ff4c4c;
+  }
+  100%{
+    width: 155px;
+    color: aqua;
+  }
+}
+
+p.about-tit {
+  color: #bbb;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.about-content {
+  width: 45%;
+  position: absolute;
+  right: 0;
+}
+
+a.default-btn {
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background-color: #ff4c4c;
+  color: #ddd;
+  line-height: 45px;
+  display: inline-block;
+  padding: 0 25px;
+  border-radius: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.mid-img{
+  width: 644.5px;
+}
+
+
+
+
+
+
+
+
